@@ -2,8 +2,8 @@ import { Body, Controller, Get, Param, Post, Put } from '@nestjs/common';
 import { ProductService } from './product.service';
 import { CreateNewProductDto } from './dto/create-new-product.dto';
 import { GetProductInfoDto } from './dto/get-product-info.dto';
-import { IProduct } from '../interface/product-interface';
 import { EditProductDto } from './dto/edit-product.dto';
+import { IProduct } from '../interface/product-interface';
 import { IHttpStatus } from '../interface/http-status-interface';
 
 @Controller('product')
